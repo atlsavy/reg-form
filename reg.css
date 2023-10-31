@@ -26,6 +26,22 @@ fieldset {
     border-bottom: 3px solid #3b3b4f;
 }
 
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+input, textarea, select {
+    width: 100%;
+    margin: 10px 0;
+    margin-bottom: 0;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0;
+    margin-right: 0.5em;
+}
+
 label {
     display: block;
     margin: 0.5rem 0;
